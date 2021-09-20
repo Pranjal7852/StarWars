@@ -1,7 +1,7 @@
 # StarWars Website
 Link for the website is [here](https://pranjal7852.github.io/StarWars/src/)
 
-This was an fun to do Project to showcase my Front-End Skills.
+This was an fun to do Project to showcase my Front-End Skills. Random Starwars quotes get generated after every 10 seconds. I have also included BB-8 to track your mouse cursor and navigate depending on user click.To make the website look more cool Lightsaver toggle menu glows every 200ms.
 
 
 # Codepen's Used
