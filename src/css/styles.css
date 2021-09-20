@@ -118,6 +118,9 @@ body {
         transition: 100ms;
         }     
                 /* Audio button ccss */
+        #audio {
+          color: red;
+        }        
                  
   footer {
       width: 100%;
