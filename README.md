@@ -4,9 +4,9 @@ Link for the website is [here](https://pranjal7852.github.io/StarWars/src/)
 This was an fun to do Project to showcase my Front-End Skills.
 
 
-# Codepen Used
+# Codepen's Used
 
-I have made use of following Codepens's to get **inspired** for this **Project**
+I have made use of following Codepen's to get **inspired** for this **Project**
 
 
  1. [RYMD](https://codepen.io/hakimel/pen/bzrZGo) 
