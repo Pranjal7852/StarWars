@@ -1,7 +1,7 @@
 # StarWars Website
 Link for the website is [here](https://pranjal7852.github.io/StarWars/src/)
 
-This wasn an fun to do Project to showcase my Front-End Skills.
+This was an fun to do Project to showcase my Front-End Skills.
 
 
 # Codepen Used
