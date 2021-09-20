@@ -133,11 +133,12 @@
     <script>
       const audioBtn = document.querySelector("#audio");
       const audioTrack = new Audio("./audio/Star Wars Main Theme (Full).mp3");
+      audioTrack.play();
       audioTrack.addEventListener('ended', function() {
                           this.currentTime = 0;
                           this.play();
                       }, false);
-                      audioTrack.play();
+      
       
       audioBtn.addEventListener("click", function() {
         if (audioBtn.className === "fas fa-volume-up") {

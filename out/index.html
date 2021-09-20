@@ -131,11 +131,11 @@
     <script src="quote.6091734e.js"></script>
     <script>var audioBtn = document.querySelector("#audio");
 var audioTrack = new Audio("./audio/Star Wars Main Theme (Full).mp3");
+audioTrack.play();
 audioTrack.addEventListener('ended', function () {
   this.currentTime = 0;
   this.play();
 }, false);
-audioTrack.play();
 audioBtn.addEventListener("click", function () {
   if (audioBtn.className === "fas fa-volume-up") {
     audioBtn.className = "fas fa-volume-mute";
