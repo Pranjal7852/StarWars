@@ -1,3 +1,4 @@
+// I have took inspiration from this code pen https://codepen.io/dhuddleston/pen/yegXEJ
 $(document).ready(function() {
   
     var obiwanQuotes = [ // Obi-Wan Kenobi Quotes

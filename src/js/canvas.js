@@ -1,3 +1,4 @@
+//This code was modified by Pranjal Goyal by copying  from https://codepen.io/hakimel/pen/bzrZGo
 const STAR_COUNT = ( window.innerWidth + window.innerHeight ) / 25,
       STAR_SIZE = 3,
       STAR_MIN_SCALE = 0.2,

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*,*:before,*:after { box-sizing: border-box; }
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: radial-gradient(circle at top right, rgba(121, 68, 154, 0.13),       transparent),
+      radial-gradient(circle at 20% 80%, rgba(41, 196, 255, 0.13), transparent);
+    overflow: hidden;  
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+      
+  }
+  canvas {
+    position: fixed;
+    width: 100%;
+    height: 96vh;
+    z-index: 100;
+  }
+  
+  a {
+    position: absolute;
+    bottom: 2vmin;
+    right: 2vmin;
+    color: rgba(255,255,255,0.2);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+  }
+  .main {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -100;
+  }
+  .logo {
+      width: 65%;
+      position: relative;
+  }
+  .logo svg path {
+    fill:#8181813f;
+  }
+  .logo p {
+    position: absolute;
+    transform: translate(-50%, -100%);
+    top: 50%;
+    left: 50%;
+    font-family: 'EB Garamond', serif;
+    color: rgba(212, 212, 169, 0.952);
+    width: 80vw;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    z-index: -100;
+  }
+  .logo p::before {
+    content: '"';
+    font-size: 2rem;
+    color: white;
+  }
+  .logo p::after {
+    content: '"';
+    font-size: 2rem;
+    color: white;
+  }
+/* NAVBAR ITESMS */
+  .menu {
+    width: 2px;
+    height: 2px;
+    
+    position: absolute;
+    top: 2%;
+    right: 6.8%;
+    
+    
+  }
+  .menu-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 200ms;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 101;
+  }
+  .menu-item a i, i {
+    text-decoration: none;
+    color: rgb(165, 164, 164);
+    font-size: 2rem;
+    transition: 200ms;
+    
+  }
+  .menu-item a i:hover {
+    color: white;
+    transition: 200ms;
+  }
+  input#toggle:checked ~ .menu-item {
+    opacity: 1;
+    pointer-events: all;
+  }
+  input#toggle:checked ~ .menu-item:nth-of-type(1) {
+    transform: translateY(120%);
+    transition: 100ms;
+    
+    }
+    input#toggle:checked ~ .menu-item:nth-of-type(2) {
+      transform: translateY(200%);
+      transition: 100ms;
+      }
+      input#toggle:checked ~ .menu-item:nth-of-type(3) {
+        transform: translateY(300%);
+        transition: 100ms;
+        }     
+                /* Audio button ccss */
+        #audio {
+          color: red;
+        }        
+                 
+  footer {
+      width: 100%;
+      position: absolute;
+      bottom: -5%;
+  }
+  .credit {
+    position: absolute;
+    color: white;
+    bottom: 2%;
+    font-size: 1rem;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 105;
+    opacity: 0;
+    animation: 50s appear ease 1s;
+  }
+  @keyframes appear {
+    100% {
+      opacity: 1;
+    }
+  }

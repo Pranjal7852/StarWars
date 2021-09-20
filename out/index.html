@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Wars FrontEnd Effects</title>
-    <link rel="stylesheet" href="styles.f473d246.css">
+    <title>Star Wars FrontEnd Effects 💫✨ | Pranjal Goyal </title>
+    <link rel="stylesheet" href="styles.868889b6.css">
     <link rel="stylesheet" href="bb8.aea3bd5d.css">
     <link rel="stylesheet" href="toggle.f2aac3bb.css">
+    <link rel="stylesheet" href="mobile.70d9f0e9.css">
+    <link rel="shortcut icon" href="r2d2+robot+starwars+icon-1320166698566079188.8717417a.png" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/84588adc24.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +40,7 @@
         </div>
       </label>
       
-    <div class="menu-item"><i id="audio" class="fas fa-volume-up"></i></div>
+    <div class="menu-item"><i id="audio" class="fas fa-volume-mute"></i></div>
     <div class="menu-item"><a href="https://github.com/Pranjal7852/StarWars" target="blank"><i class="fab fa-github"></i></a></div>
     <div class="menu-item"><a href="https://pranjal-portfolio.herokuapp.com/" target="blank"><i class="fas fa-user-secret"></i></a></div>
 
@@ -93,7 +95,7 @@
            
         </div>
     </section>
-    <div class="credit">© Disney | Website Made By Pranjal Goyal</div>
+    <div class="credit">© Disney | 🛠️ Website Made By Pranjal Goyal</div>
     <footer>
         <div class="message">
             <h2>move mouse or tap.</h2>
@@ -126,16 +128,17 @@
        
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script src="canvas.19f82856.js"></script>
-    <script src="bb.1acf1af1.js"></script>
-    <script src="quote.6091734e.js"></script>
+    <script src="canvas.c59b2e6e.js"></script>
+    <script src="bb.be82166e.js"></script>
+    <script src="quote.ef24c052.js"></script>
     <script>var audioBtn = document.querySelector("#audio");
-var audioTrack = new Audio("./audio/Star Wars Main Theme (Full).mp3");
-audioTrack.play();
+var audioTrack = new Audio("./audio/Star Wars Main Theme (Full).mp3"); // audioTrack.play();
+
 audioTrack.addEventListener('ended', function () {
   this.currentTime = 0;
   this.play();
-}, false);
+}, false); // audioTrack.play();
+
 audioBtn.addEventListener("click", function () {
   if (audioBtn.className === "fas fa-volume-up") {
     audioBtn.className = "fas fa-volume-mute";

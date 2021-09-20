@@ -1,3 +1,4 @@
+//I was used and modified this code pen https://codepen.io/mdixondesigns/pen/PPEJwz
 var $w = $( window ).width();
 var $dW = $('.bb8').css('width');
 $dW = $dW.replace('px', '');
