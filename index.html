@@ -38,10 +38,9 @@
         </div>
       </label>
       
-    <div class="menu-item"><a href=""><i class="fas fa-music"></i></a></div>
+    <div class="menu-item"><i id="audio" class='fas fa-volume-up'></i></div>
     <div class="menu-item"><a href=""><i class="fab fa-github"></i></a></div>
-    <div class="menu-item"><a href=""><i class="fas fa-sun"></i></a></div>
-    <div class="menu-item"><a href=""><i class="fas fa-sun"></i></a></div>
+    <div class="menu-item"><a href="https://pranjal-portfolio.herokuapp.com/" target="blank"><i class="fas fa-user-secret"></i></a></div>
 
      </nav>
       
@@ -91,9 +90,11 @@
 		c-0.5,0-1-0.1-1.5-0.1c-6.7,21.8-13.4,43.6-20.3,65.8c14,0,26.9,0,40.8,0C366.2,306.3,359.9,284.6,353.6,262.9z"/>
 </g>
             </svg>
-
+            <p id="Quote"></p>
+           
         </div>
     </section>
+    <div class="credit">© Disney | Website Made By Pranjal Goyal</div>
     <footer>
         <div class="message">
             <h2>move mouse or tap.</h2>
@@ -128,6 +129,30 @@
 
     <script src="./canvas.js"></script>
     <script src="./bb.js"></script>
+    <script src="./quote.js"></script>
+    <script>
+      const audioBtn = document.querySelector("#audio");
+      // const audioTrack = new Audio("./audio/Star Wars Main Theme (Full).mp3");
+      audioTrack.addEventListener('ended', function() {
+                          this.currentTime = 0;
+                          this.play();
+                      }, false);
+                      audioTrack.play();
+      
+      audioBtn.addEventListener("click", function() {
+        if (audioBtn.className === "fas fa-volume-up") {
+          audioBtn.className = "fas fa-volume-mute";
+          audioTrack.pause();
+          audioBtn.style.color = "#ff0000"
+        }
+        else {
+          audioBtn.className = "fas fa-volume-up";
+          audioTrack.play();
+          audioBtn.style.color = "#a5a4a4"
+        }
+  
+      });
+    </script>
    
     
 </body>
