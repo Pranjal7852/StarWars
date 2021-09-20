@@ -1,0 +1,19 @@
+{
+  "name": "star-wars",
+  "version": "1.0.0",
+  "description": "A fun to do project to showcase front-end skils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranjal7852/StarWars.git"
+  },
+  "author": "Pranjal Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranjal7852/StarWars/issues"
+  },
+  "homepage": "https://github.com/Pranjal7852/StarWars#readme"
+}
