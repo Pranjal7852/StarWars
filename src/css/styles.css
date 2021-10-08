@@ -72,7 +72,7 @@ body {
   .menu {
     width: 2px;
     height: 2px;
-    
+    /* transform: translate(-50%, -50%); */
     position: absolute;
     top: 2%;
     right: 6.8%;

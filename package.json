@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Pranjal7852/StarWars/issues"
   },
-  "homepage": "https://github.com/Pranjal7852/StarWars#readme"
+  "homepage": "https://github.com/Pranjal7852/StarWars#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
 }
